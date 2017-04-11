@@ -43,8 +43,7 @@ public class MyControlPanel extends JPanel implements CytoPanelComponent {
 	public MyControlPanel(final CyAppAdapter adapter, final OpenSessionTaskFactory openSessionTaskFactory) throws IOException{
 		//this.adapter = adapter;
 		
-		JLabel lbXYZ = new JLabel("AOPXplorer");
-		JLabel label2 = new JLabel("");
+		JLabel lbXYZ = new JLabel("AOPXplorer v1.0.0");
 		
 		URL url = new URL("https://api.github.com/repos/DataSciBurgoon/aop_networks/contents/");
 		
@@ -104,7 +103,6 @@ public class MyControlPanel extends JPanel implements CytoPanelComponent {
 		
 		this.add(lbXYZ);
 		this.add(jcb);
-		this.add(label2);
 		this.setVisible(true);
 	}
 	
