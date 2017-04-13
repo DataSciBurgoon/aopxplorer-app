@@ -32,7 +32,6 @@ public class ControlPanelAction implements CytoPanelComponentSelectedListener{
 
 	@Override
 	public void handleEvent(CytoPanelComponentSelectedEvent e) {
-		System.out.println("I'm in ControlPanelAction");
 		CySessionManager mySessionManager = adapter.getCySessionManager();
 		CySession session = mySessionManager.getCurrentSession();
 		session = mySessionManager.getCurrentSession();

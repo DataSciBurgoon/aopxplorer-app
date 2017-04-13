@@ -44,8 +44,6 @@ public class MyControlPanel extends JPanel implements CytoPanelComponent {
 		//this.adapter = adapter;
 		
 		JLabel lbXYZ = new JLabel("AOPXplorer v1.0.0");
-		JLabel bugfix_statement = new JLabel("Report Bugs and Feature Requests");
-		JLabel bugfix_url = new JLabel("https://github.com/DataSciBurgoon/aopxplorer-app/issues");
 		
 		URL url = new URL("https://api.github.com/repos/DataSciBurgoon/aop_networks/contents/");
 		
@@ -78,7 +76,6 @@ public class MyControlPanel extends JPanel implements CytoPanelComponent {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try{
-					System.out.println("I'm in MyControlPanel");
 					CySessionManager mySessionManager = adapter.getCySessionManager();
 					CySession session = mySessionManager.getCurrentSession();
 					session = mySessionManager.getCurrentSession();
@@ -105,8 +102,6 @@ public class MyControlPanel extends JPanel implements CytoPanelComponent {
 		
 		this.add(lbXYZ);
 		this.add(jcb);
-		this.add(bugfix_statement);
-		this.add(bugfix_url);
 		this.setVisible(true);
 	}
 	

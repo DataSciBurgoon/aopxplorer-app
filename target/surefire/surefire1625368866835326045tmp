@@ -1,8 +1,8 @@
 #surefire
-#Tue Apr 11 10:10:46 EDT 2017
-dirscanner.0.params=/Users/burgoonl/Documents/workspace/aopxplorer-app/target/test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+#Thu Apr 13 17:47:25 EDT 2017
+dirscanner.0.params=/Users/burgoonl/Documents/java_workspace/aopxplorer-app/target/test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
 enableAssertions=true
-testSuiteDefinitionTestSourceDirectory=/Users/burgoonl/Documents/workspace/aopxplorer-app/src/test/java
+testSuiteDefinitionTestSourceDirectory=/Users/burgoonl/Documents/java_workspace/aopxplorer-app/src/test/java
 surefireClassPathUrl.1=/Users/burgoonl/.m2/repository/org/apache/maven/surefire/surefire-api/2.7.1/surefire-api-2.7.1.jar
 surefireClassPathUrl.0=/Users/burgoonl/.m2/repository/org/apache/maven/surefire/surefire-junit3/2.7.1/surefire-junit3-2.7.1.jar
 classPathUrl.9=/Users/burgoonl/.m2/repository/org/cytoscape/model-api/3.3.0/model-api-3.3.0.jar
@@ -13,15 +13,15 @@ classPathUrl.5=/Users/burgoonl/.m2/repository/org/cytoscape/work-swing-api/3.3.0
 classPathUrl.4=/Users/burgoonl/.m2/repository/org/cytoscape/swing-application-api/3.3.0/swing-application-api-3.3.0.jar
 classPathUrl.3=/Users/burgoonl/.m2/repository/org/cytoscape/service-api/3.3.0/service-api-3.3.0.jar
 classPathUrl.2=/Users/burgoonl/.m2/repository/org/osgi/org.osgi.core/4.2.0/org.osgi.core-4.2.0.jar
-classPathUrl.1=/Users/burgoonl/Documents/workspace/aopxplorer-app/target/classes
+classPathUrl.1=/Users/burgoonl/Documents/java_workspace/aopxplorer-app/target/classes
 report.2=org.apache.maven.surefire.report.XMLReporter
-classPathUrl.0=/Users/burgoonl/Documents/workspace/aopxplorer-app/target/test-classes
+classPathUrl.0=/Users/burgoonl/Documents/java_workspace/aopxplorer-app/target/test-classes
 report.1=org.apache.maven.surefire.report.BriefFileReporter
 childDelegation=false
 report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
 isTrimStackTrace=true
 classPathUrl.24=/Users/burgoonl/.m2/repository/org/cytoscape/command-executor-api/3.3.0/command-executor-api-3.3.0.jar
-reportsDirectory=/Users/burgoonl/Documents/workspace/aopxplorer-app/target/surefire-reports
+reportsDirectory=/Users/burgoonl/Documents/java_workspace/aopxplorer-app/target/surefire-reports
 classPathUrl.23=/Users/burgoonl/.m2/repository/org/cytoscape/filter-api/3.3.0/filter-api-3.3.0.jar
 classPathUrl.22=/Users/burgoonl/.m2/repository/org/cytoscape/datasource-api/3.3.0/datasource-api-3.3.0.jar
 classPathUrl.21=/Users/burgoonl/.m2/repository/org/cytoscape/webservice-api/3.3.0/webservice-api-3.3.0.jar
@@ -32,7 +32,7 @@ includes0=**/Test*.java
 excludes0=**/*$*
 failIfNoTests=false
 useManifestOnlyJar=true
-testClassesDirectory=/Users/burgoonl/Documents/workspace/aopxplorer-app/target/test-classes
+testClassesDirectory=/Users/burgoonl/Documents/java_workspace/aopxplorer-app/target/test-classes
 dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
 dirscanner.0=directoryScannerOptions
 classPathUrl.19=/Users/burgoonl/.m2/repository/org/cytoscape/layout-api/3.3.0/layout-api-3.3.0.jar

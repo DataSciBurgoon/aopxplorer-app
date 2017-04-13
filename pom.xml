@@ -8,8 +8,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>mil.army.usace.aopxplorer</groupId>
-	<artifactId>aopxplorer-app</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 
 			<name>${bundle.symbolicName} [${bundle.namespace}]</name>
 	
@@ -149,4 +148,5 @@
 		</dependency>
 	</dependencies>
 
+	<artifactId>AOPXplorer</artifactId>
 </project>
